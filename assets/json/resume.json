@@ -1,200 +1,162 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Ankit Aggarwal",
+    "label": "Robotics Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "personal email": "ankitagga0612@gmail.com",
+    "work email": "ankitagg@andrew.cmu.edu",
+    "linkedin": "https://www.linkedin.com/in/ankitaggarw/",
+    "phone": "(412) 726-4393",
+    "summary": "Robotics Graduate Student at Carnegie Mellon Univiersity. Skilled in Controls, Mechatronic Design and Automation"
   },
+
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Amazon India",
+      "position": "Program Manager Intern",
+      "url": "",
+      "startDate": "January 2024",
+      "endDate": "June 2024",
+      "summary": "Spearheaded migration of Supply Chain Inbound Forecasting from manual to an algorithm-based forecasting model. Drafted new ways of working for all stakeholders and led pilot launch. Performed extensive data analysis, identified downstream challenges, led solution-focused project meetings and obtained leadership approvals, improving overall forecasting accuracy by 10%.",
+      "highlights": ["Program Management, Data Analysis, Team Leadership"]
+    },
+
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Continuum Robotics Laboratory, University of Toronto",
+      "position": "MITACS Globalink Research Intern",
+      "url": "https://www.opencontinuumrobotics.com/hands-on/2023/10/11/learning-kit.html",
+      "startDate": "June 2023",
+      "endDate": "Auguest 2023",
+      "summary": "Fabricated a portable Tendon Driven Continuum Robot (TDCR), as part of the OpenCR Project. Created custom BLDC actuators and optimised tendon routes using Fusion 360 and TI Launchpad. Built a fully-actuated segment TDCR-based manual endoscope using tension-based and mechanical logic elements to create reliable control by eliminating digital latency.",
+      "highlights": ["Continuum Robotics, Mechatronics, 3D Printing"]
+    }, 
+    {
+      "name": "Mars Rover Manipal",
+      "position": "Technical Head / Mechanical Design Engineer",
+      "url": "https://www.marsrovermanipal.com/",
+      "startDate": "November 2021",
+      "endDate": "July 2023",
+      "summary": "Directed all technical operations of a team of 40 engineering undergraduates from 5 disciplines, involved in over 10 research & development projects and 7 international competitions. Engineered a Mars Rover Prototype for extra-terrestrial exploration comprising an on-board 6-DOF Robotic Manipulator with Inverse Kinematic Control, Custom 40:1 Cycloidal 3D-Printed Gearbox, and a novel 5-bar Suspension System to compete in University Rover Challenge (Ranked 1st in Asia). ",
+      "highlights": ["Robotics, Team Leadership, 3D Printing", "CAD Design"]
+    },
+    {
+      "name": "STMicroelectronics India",
+      "position": "Application Engineer Intern, Systems Research and Applications Department",
+      "url": "https://www.st.com/en/",
+      "startDate": "December 2021",
+      "endDate": "January 2022",
+      "summary": "Designed a 4-wheel drive Mecanum Robot, integrated into a STM BLE P2P and Mesh Network for manual and autonomous control. Initiated multiple new robotics projects in the SRA team. • Interfaced MEMS Sensors using HAL, LL, and Register Level drivers of the STM32 Microcontroller.",
+      "highlights": ["Robotics, Team Leadership, 3D Printing"]
     }
   ],
+
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
+      "institution": "Carnegie Mellon University",
+      "location": "Pittsburgh, PA",
+      "url": "https://www.cmu.edu/",
+      "area": "Robotic Systems Development (MRSD)",
+      "studyType": "MS",
+      "startDate": "August 2024",
+      "endDate": "May 2026",
+      "GPA": "4.17",
+      "courses": ["Manipulation and Control", "Robot Autonomy", "Optimal Control and Reinforcement Learning", "Computer Vision"]
+    }, 
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "institution": "Manipal Institute of Technology",
+      "location": "Manipal, Karnataka, India",
+      "url": "https://www.manipal.edu/mit.html",
+      "area": "Mechatronics with Robotics and Automation",
+      "studyType": "B.Tech",
+      "startDate": "October 2020",
+      "endDate": "June 2024",
+      "GPA": "9.50/10",
+      "courses": ["Mechatronic Design", "Systems Engineeing", "Control Systems", "Embedded Systems", "Manufacturing Processes"]
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "Certified SolidWorks Professional (CSWP) - Mechanical Design",
+      "date": "2021",
+      "issuer": "Dassault Systemes",
+      "icon": "fa-solid fa-location-dot",
+      "url": ""
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Workspace and Trajectory Analysis of the 3-RPR Planar Parallel Manipulators with Joint Clearance",
+      "publisher": "Springer",
+      "releaseDate": "2024-10-06",
+      "url": "https://link.springer.com/chapter/10.1007/978-981-97-5423-6_61"
     }
   ],
+
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming Languages",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "MATLAB",
+        "Embedded C/C",
+        "Julia",
+        "Mathematica",
+        "SQL",
+        "C++"
+      ]
+    },
+    {
+      "name": "Software",
+      "keywords": [
+        "SolidWorks",
+        "Ansys",
+        "CATIA",
+        "Fusion 360",
+        "Simpify3D"
+      ]
+    },
+    {
+      "name": "Technologies and Frameworks",
+      "keywords": [
+        "ROS2",
+        "Gazebo",
+        "MoveIt",
+        "Simulink",
+        "Scikit-learn",
+        "Tensorflow",
+        "Keras",
+        "SciPy",
+        "Git",
+        "Docker"
       ]
     }
   ],
-  "languages": [
+
+  "ongoing projects": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
+      "name": "Lunar ROADSTER",
+      "summary": "Building an Autonomous Moon-working Mechatronic Rover, capable of finding exploration routes and grooming the lunar surface to develop traversable surface trails using actuated bulldozing mechanism. Optimizing Localization, Navigation, Perception and Manipulation systems for precise and reliable autonomous operations using ROS2, Sensor Fusion, Computer Vision and Docker.",
+      "highlights": ["ROS2, Sensor Fusion, Computer Vision, Docker, Mechatronc Design, C++"],
+      "startDate": "Sep 2024",
+      "endDate": "Present",
+      "url": "https://mrsdprojects.ri.cmu.edu/2025teami/"
+    }
+  ], 
+  "languages": [
     {
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
+      "language": "Hindi",
+      "fluency": "Native Speaker",
+      "icon": ""
+    }, 
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "language": "French",
+      "fluency": "Elementary",
+      "icon": ""
     }
   ]
 }
