@@ -15,8 +15,8 @@
       "name": "Amazon India",
       "position": "Program Manager Intern",
       "url": "",
-      "startDate": "January 2024",
-      "endDate": "June 2024",
+      "startDate": "Jan 2024",
+      "endDate": "Jun 2024",
       "summary": "Spearheaded migration of Supply Chain Inbound Forecasting from manual to an algorithm-based forecasting model. Drafted new ways of working for all stakeholders and led pilot launch. Performed extensive data analysis, identified downstream challenges, led solution-focused project meetings and obtained leadership approvals, improving overall forecasting accuracy by 10%.",
       "highlights": ["Program Management, Data Analysis, Team Leadership"]
     },
@@ -25,8 +25,8 @@
       "name": "Continuum Robotics Laboratory, University of Toronto",
       "position": "MITACS Globalink Research Intern",
       "url": "https://www.opencontinuumrobotics.com/hands-on/2023/10/11/learning-kit.html",
-      "startDate": "June 2023",
-      "endDate": "Auguest 2023",
+      "startDate": "Jun 2023",
+      "endDate": "Aug 2023",
       "summary": "Fabricated a portable Tendon Driven Continuum Robot (TDCR), as part of the OpenCR Project. Created custom BLDC actuators and optimised tendon routes using Fusion 360 and TI Launchpad. Built a fully-actuated segment TDCR-based manual endoscope using tension-based and mechanical logic elements to create reliable control by eliminating digital latency.",
       "highlights": ["Continuum Robotics, Mechatronics, 3D Printing"]
     }, 
@@ -34,8 +34,8 @@
       "name": "Mars Rover Manipal",
       "position": "Technical Head / Mechanical Design Engineer",
       "url": "https://www.marsrovermanipal.com/",
-      "startDate": "November 2021",
-      "endDate": "July 2023",
+      "startDate": "Nov 2021",
+      "endDate": "Jul 2023",
       "summary": "Directed all technical operations of a team of 40 engineering undergraduates from 5 disciplines, involved in over 10 research & development projects and 7 international competitions. Engineered a Mars Rover Prototype for extra-terrestrial exploration comprising an on-board 6-DOF Robotic Manipulator with Inverse Kinematic Control, Custom 40:1 Cycloidal 3D-Printed Gearbox, and a novel 5-bar Suspension System to compete in University Rover Challenge (Ranked 1st in Asia). ",
       "highlights": ["Robotics, Team Leadership, 3D Printing", "CAD Design"]
     },
@@ -43,8 +43,8 @@
       "name": "STMicroelectronics India",
       "position": "Application Engineer Intern, Systems Research and Applications Department",
       "url": "https://www.st.com/en/",
-      "startDate": "December 2021",
-      "endDate": "January 2022",
+      "startDate": "Dec 2021",
+      "endDate": "Jan 2022",
       "summary": "Designed a 4-wheel drive Mecanum Robot, integrated into a STM BLE P2P and Mesh Network for manual and autonomous control. Initiated multiple new robotics projects in the SRA team. • Interfaced MEMS Sensors using HAL, LL, and Register Level drivers of the STM32 Microcontroller.",
       "highlights": ["Robotics, Team Leadership, 3D Printing"]
     }
@@ -57,7 +57,7 @@
       "url": "https://www.cmu.edu/",
       "area": "Robotic Systems Development (MRSD)",
       "studyType": "MS",
-      "startDate": "August 2024",
+      "startDate": "Aug 2024",
       "endDate": "May 2026",
       "GPA": "4.17",
       "courses": ["Manipulation and Control", "Robot Autonomy", "Optimal Control and Reinforcement Learning", "Computer Vision"]
@@ -68,8 +68,8 @@
       "url": "https://www.manipal.edu/mit.html",
       "area": "Mechatronics with Robotics and Automation",
       "studyType": "B.Tech",
-      "startDate": "October 2020",
-      "endDate": "June 2024",
+      "startDate": "Oct 2020",
+      "endDate": "Jun 2024",
       "GPA": "9.50/10",
       "courses": ["Mechatronic Design", "Systems Engineeing", "Control Systems", "Embedded Systems", "Manufacturing Processes"]
     }
@@ -89,6 +89,12 @@
       "publisher": "Springer",
       "releaseDate": "2024-10-06",
       "url": "https://link.springer.com/chapter/10.1007/978-981-97-5423-6_61"
+    },
+    {
+      "name": "SmartCare Baby: Revolutionizing Infant Safety and Comfort with the Smart Auto-Cleaning Cradle System",
+      "publisher": "IEEE",
+      "releaseDate": "2025-01-21",
+      "url": "https://ieeexplore.ieee.org/document/10840448/authors#authors"
     }
   ],
 

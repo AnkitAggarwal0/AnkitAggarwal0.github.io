@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Robotics. Controls. Mechatronic Design
+subtitle: Robotics. Controls. Mechatronic Design. 
 
 profile:
   align: right
@@ -16,17 +16,12 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Hey! My name is Ankit Aggarwal. I am currently pursuing a Master’s in Robotic Systems Development (MRSD) at the Robotics Institute, Carnegie Mellon University. As part of this program, my capstone project lies in the domain of Space Robotics – Lunar ROADSTER, a Robotics Operator for Autonomous Development of Surface Trails and Exploration Routes.  
+<h2> Hey! My name is Ankit Aggarwal. I am currently pursuing a Master’s in Robotic Systems Development (MRSD) at the Robotics Institute, Carnegie Mellon University. As part of this program, my capstone project lies in the domain of Space Robotics – Lunar ROADSTER, a Robotics Operator for Autonomous Development of Surface Trails and Exploration Routes.  
 
 My core interest lies in creating robots in unpredictable environments. This ranges from robots that operate in extra-terrestrial conditions or aid humans work in hard-to-access mining sites. Robotics allows me to explore a broad spectrum of engineering problems, and I enjoy creating complete multi-disciplinary systems from the ground up.  
 
-I recently graduated from Manipal Institute of Technology with a Bachelor of Technology degree. My major was Mechatronics, and my minor was Robotics and Automation. During my undergraduate tenure, I led a team of undergraduate students to various international robotics competitions with Mars Rover Manipal and research projects in the domain of parallel robots and IoT.  
+I recently graduated from Manipal Institute of Technology with a Bachelor of Technology degree. My major was Mechatronics, and my minor was Robotics and Automation. During my undergraduate tenure, I led a team of undergraduate students to various international robotics competitions with Mars Rover Manipal and research projects in the domain of parallel robots and IoT. </h2>
 
-In 2024, I interned at Amazon India as a Program Manager Intern in Supply Chain Operations. My work involved transitioning the forecasting methodology from a heuristic-based manual calculation to Monte-Carlo simulation-based predictions.  
-
-In 2023, I was a MITACS Globalink Intern at the Continuum Robotics Laboratory in University of Toronto. Under Prof. Jessica Burgner-Kahrs, I designed and fabricated a portable continuum robot as part of the OpenCR Project.  
-
-In 2022, I interned at STMicroelectronics as an Application Engineer. I developed Mecanum-wheeled robot integrated into a BLE mesh for manual and autonomous control. I interfaced various MEMS sensors using the STM32 microcontroller at a register level.  
 
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
