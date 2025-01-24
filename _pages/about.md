@@ -16,7 +16,7 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-<h4> Hey! My name is Ankit Aggarwal. I am currently pursuing a Master’s in Robotic Systems Development (MRSD) at the Robotics Institute, Carnegie Mellon University. As part of this program, my capstone project lies in the domain of Space Robotics – Lunar ROADSTER, a Robotics Operator for Autonomous Development of Surface Trails and Exploration Routes. </h4>
+<h4> Hey! My name is Ankit Aggarwal. I am currently pursuing a Master’s in Robotic Systems Development (MRSD) at the Robotics Institute, Carnegie Mellon University. As part of this program, my capstone project lies in the domain of Space Robotics – <a href = "projects/1_project">Lunar ROADSTER </a>, a Robotic Operator for Autonomous Development of Surface Trails and Exploration Routes. </h4>
 
 <h4> My core interest lies in creating robots in unpredictable environments. This ranges from robots that operate in extra-terrestrial conditions or aid humans work in hard-to-access mining sites. Robotics allows me to explore a broad spectrum of engineering problems, and I enjoy creating complete multi-disciplinary systems from the ground up.  </h4>
 

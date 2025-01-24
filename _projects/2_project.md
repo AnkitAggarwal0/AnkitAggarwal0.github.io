@@ -1,81 +1,39 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: OpenCR Learning Kit 
+description: Continuum Robotics Laboratory, University of Toronto
+img: assets/img/opencr_kit.png
 importance: 2
-category: work
-giscus_comments: true
+category: 
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<b> Supervisor: </b> <a href="https://www.cs.toronto.edu/~jbk/"> Dr. Jessica Burgner-Kahrs </a> \
+<b> Team: </b> Ankit Aggarwal, Reinhard Grassman \
+<b> Project Website: </b> <a href = "https://www.opencontinuumrobotics.com/hands-on/2023/10/11/learning-kit.html"> OpenCR Blog </a> \
+<b> Project GitHub: </b> <a href = "https://github.com/ContinuumRoboticsLab/OpenCR-Hardware"> Project GitHub </a> 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Designed and fabricated a portable Tendon Driven Continuum Robot (TDCR) as part of the Open Continuum Robotics Project, which aims to empower the world with open hardware and open software to build their own continuum robots under Prof. Jessica Burgner-Kahrs. \
+Responsible for designing and developing custom actuators, optimal tendon routes and secure component mounts, focusing on ensuring ease of fabrication worldwide. \
+Designed a Fully Actuated Segment TDCR-based manual input device. The device has applications in remote surgeries, performing tasks in contained environments and function as a demonstration of the capabilities of a TDCR in the Lab.
+<br> 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<h3> <b> Project Assembly Walkthrough </b> </h3>
+<hr>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<iframe width="800" height="452" src="https://www.youtube.com/embed/REcu881jMmQ?si=aszoRi-8XKVUDrPn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<h3> <b> Project Presentation </b> </h3>
+<hr>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+<object data="/assets/pdf/Final Presentation.pdf" width="100%" height="800" type="application/pdf">
+    <p>Your browser does not support PDFs. Please download the report <a href="/assets/pdf/Final Presentation.pdf">here</a>.</p>
+</object>
+<br>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+<h3> <b> Completion Certificate </b></h3>
+<hr>
+<object data="/assets/pdf/mitacs.pdf" width="100%" height="800" type="application/pdf">
+    <p>Your browser does not support PDFs. Please download the report <a href="/assets/pdf/mitacs.pdf">here</a>.</p>
+</object>
