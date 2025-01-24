@@ -384,9 +384,14 @@ ninja.data = [{
       },
     },{id: "projects-lunar-roadster",
           title: 'Lunar ROADSTER',
-          description: "with background image",
+          description: "MRSD Capstone Project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-opencr-learning-kit",
+          title: 'OpenCR Learning Kit',
+          description: "Continuum Robotics Laboratory, University of Toronto",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
             },},{
         id: 'social-email',
         title: 'email',
