@@ -392,6 +392,11 @@ ninja.data = [{
           description: "Continuum Robotics Laboratory, University of Toronto",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-mars-rover-prototype",
+          title: 'Mars Rover Prototype',
+          description: "Mars Rover Manipal",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
             },},{
         id: 'social-email',
         title: 'email',
