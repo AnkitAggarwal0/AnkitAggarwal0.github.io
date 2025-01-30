@@ -21,6 +21,6 @@ related_publications: false
 </object>
 
 
-<a href = "assets/pdf/TeamI_CoDR_Report.pdf"> Conceptual Design Review Report (CoDRR) </a> 
+<a href = "/assets/pdf/TeamI_CoDR_Report.pdf"> Conceptual Design Review Report (CoDRR) </a> 
 
 More to come soon!

@@ -209,7 +209,6 @@ exclude:
   - _pages/blog.md
   - _pages/repositories.md
   - _news/
-  - _projects/3_project.md
   - _projects/4_project.md
   - _projects/5_project.md
   - _projects/6_project.md
