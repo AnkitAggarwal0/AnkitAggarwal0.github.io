@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of my cool projects.",
+          description: "A growing collection of my cool projects (That I&#39;m allowed to share :P).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -405,6 +405,13 @@ ninja.data = [{
           window.open("mailto:%61%6E%6B%69%74%61%67%67%61%30%36%31%32@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/AnkitAggarwal0", "_blank");
+        },
+      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
@@ -424,6 +431,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://wa.me/14127264393", "_blank");
+        },
+      },{
+        id: 'social-work',
+        title: 'Work',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.ri.cmu.edu/ri-people/ankit-aggarwal/#", "_blank");
         },
       },{
       id: 'light-theme',
