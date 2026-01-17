@@ -384,7 +384,7 @@ ninja.data = [{
       },
     },{id: "projects-lunar-roadster",
           title: 'Lunar ROADSTER',
-          description: "MRSD Capstone Project",
+          description: "MRSD Capstone Project, Carnegie Mellon University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-opencr-learning-kit",
@@ -394,9 +394,14 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-mars-rover-prototype",
           title: 'Mars Rover Prototype',
-          description: "Mars Rover Manipal",
+          description: "Mars Rover Manipal, Manipal Institute of Technology",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-automated-additive-manufacturing-in-laser-welding-cell",
+          title: 'Automated Additive Manufacturing in Laser Welding Cell',
+          description: "Manufacturing Futures Institute, Carnegie Mellon University",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
             },},{
         id: 'social-email',
         title: 'email',
