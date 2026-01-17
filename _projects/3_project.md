@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Mars Rover Prototype
-description: Mars Rover Manipal
+description: Mars Rover Manipal, Manipal Institute of Technology
 img: assets/img/mrmlogo.jpeg
 importance: 2
 category: 
 ---
 
 <b> Team: </b> Mars Rover Manipal (MRM) \
-<b> Team Website: </b> <a href = "https://www.marsrovermanipal.com/"> Mars Rover Manipal </a> \
+<!-- <b> Team Website: </b> <a href = "https://www.marsrovermanipal.com/"> Mars Rover Manipal </a> \ -->
 <b> Role: </b> Technical Head / Mechanical Design Engineer
 
 
