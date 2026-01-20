@@ -384,7 +384,7 @@ ninja.data = [{
       },
     },{id: "projects-lunar-roadster",
           title: 'Lunar ROADSTER',
-          description: "MRSD Capstone Project, Carnegie Mellon University",
+          description: "MRSD Capstone Project, Carnegie Mellon University | Lunar Robotic Operator for Autonomous Development of Surface Trails and Exploration Routes",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-opencr-learning-kit",
@@ -392,8 +392,8 @@ ninja.data = [{
           description: "Continuum Robotics Laboratory, University of Toronto",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-mars-rover-prototype",
-          title: 'Mars Rover Prototype',
+            },},{id: "projects-mars-rover",
+          title: 'Mars Rover',
           description: "Mars Rover Manipal, Manipal Institute of Technology",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
@@ -402,6 +402,16 @@ ninja.data = [{
           description: "Manufacturing Futures Institute, Carnegie Mellon University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
+            },},{id: "projects-coffee-barista",
+          title: 'Coffee Barista',
+          description: "A robot arm is tasked with pouring beads representing different coffee ingredients",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
+            },},{id: "projects-dexterous-bimanual-and-humanoid-manipulation",
+          title: 'Dexterous Bimanual and Humanoid Manipulation',
+          description: "Adapting Object-Centric Policies from Dual-Arm Systems to Humanoid Embodiments",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
             },},{
         id: 'social-email',
         title: 'email',
