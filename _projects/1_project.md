@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lunar ROADSTER
-description: MRSD Capstone Project, Carnegie Mellon University
+description: MRSD Capstone Project, Carnegie Mellon University | Lunar Robotic Operator for Autonomous Development of Surface Trails and Exploration Routes
 img: assets/img/lr.jpg
 importance: 1
 category: work

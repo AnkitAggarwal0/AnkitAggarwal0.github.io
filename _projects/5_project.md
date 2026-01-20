@@ -1,80 +1,80 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: Coffee Barista
+description: A robot arm is tasked with pouring beads representing different coffee ingredients
+img: assets/img/barista_cover.jpg
 importance: 3
 category: fun
 ---
+<b>Team:</b> Ankit Aggarwal, Aayush Fadia, Shreya Shri Ragi, Swastik Mahapatra 
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<p align="center">
+<iframe width="500" height="500" src="https://www.youtube.com/embed/ttPAshS-jtE?si=UfeMbiLEElGvZBkN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+In a simulated coffee preparation environment, a robot arm is tasked with pouring beads representing different coffee ingredients (milk, coffee, foam, chocolate) into a cup based on user input for various coffee types (latte, americano, espresso). The system must:
+- <b> Controlled Pouring: </b> Pour beads in a controlled manner to achieve precise ingredient ratios
+- <b> Constrained Manipulation: </b> Pick and move ingredient cups containing beads without spilling
+- <b> Obstacle Avoidance: </b> Avoid collisions with task apparatus while moving in the environment 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
+<h3> <b> Setup </b> </h3>
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/barista_main.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
+</div>
+- RealSense Camera
+- Weighing Scale
+- 2 Ingredient Cups 
+- Output Cup (Placed anywhere on scale)
+
+<br>
+
+<h3> <b> Methodology </b> </h3>
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/barista_algo.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<h4> Perception </h4>
+The major perception component of our project is to localize and check the output coffee cup.
+1. Detect cup placed on the platform: Confirm if an output cup is present on the preparation platform from a set perceive pose.
+1. Localize the rim of the cup: Transform the data to global map for planner.
+1. Localize the cup in 3D space using depth data and determine its bounding cylinder (radius + depth).
+1. Register the resultant cylinder to the collision space.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+<h4> Motion Planning </h4>
+Motion planning is divided into three phases - Grasp Ingredient Cup, Bring ingredient cup above Coffee Mug and Replace Ingredient Cup
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+1. <b> Grasp Ingredient Cup </b>
+    - <b>Start: </b> Arm Home Configuration. 
+    - <b>Goal: </b>Place fingers horizontal and around the cup.
+    - <b>Obstacles to Avoid: </b>All objects on table - tray, cups, mug, scale, virtual walls, and arm itself.
+    - <b>Approach: </b>Inform MoveIt about all obstacles (known/predefined and from perception). Allow MoveIt to plan and execute a path.
 
-{% raw %}
+2. <b> Bring Ingredient Cup above Coffee Mug </b>
+    - <b>Start: </b> End effector grasps Ingredient Cup in its original location.
+    - <b>Goal: </b> Ingredient cup is directly above coffee mug.
+    - <b>Constraints: </b> Keep cup vertical.
+    - <b>Approach: </b> MoveIt plans a non-colliding, constraint respecting path.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+3. <b> Replace Ingredient Cup </b>
+    - <b> Start, Goal: </b> Reverse of Above.
+    - <b> Constraints: </b> Same as above.
+    - <b> Approach: </b> Plan a path via MoveIt to place ingredient cup back in original spot.
 
-{% endraw %}
+<h4> Pouring </h4>
+Pouring beads in a controlled and precise manner requires robust and accurate feedback. 
+
+1. <b> Feedback Method </b> 
+    - A weighing scale will be used to weigh the amount of beads being poured into a cup. 
+    - Fixed weight values will be defined as goals for the lookup table. 
+1. <b> Lookup Table Method </b>
+    - A lookup will be used to control the pouring with a focus on the amount of beads in the ingredient cup to select the correct angle to control flow rate to satisfy target pour amount. 
+    - Weight of beads in the ingredient cup is obtained as feedback from the end effector’s force torque sensor
+    - A control angle and offset weight will be defined for each ingredient cup weight range
+1. <b> Manipulation using Control Values </b>
+    - The control angle will used to create a goal pose of the end effector. 
+    - The goal pose will be reached using inverse kinematics of the franka arm. 
+    - The offset weight will be used as a stop condition for pouring to control over-pour.
