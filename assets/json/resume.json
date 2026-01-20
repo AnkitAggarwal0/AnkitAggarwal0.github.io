@@ -12,11 +12,20 @@
 
   "work": [
     {
+      "name": "Manufacturing Futures Institute, Carnegie Mellon University",
+      "position": "Industrial Robotics Intern",
+      "url": "",
+      "startDate": "2025-05-19",
+      "endDate": "2025-08-09",
+      "summary": "Deployed ROS-I control on FANUC ArcMate 50iD/7L, replacing manual workflows with automated DXF-based weld path execution. Engineered remote I/O control of Keyence PLC using Python RPCs for time-synchronized welds, achieving > 90 % repeatability. Programmed FANUC RoboGuide (KAREL) to stream joint states to ROS, enabling MoveIt-based motion planning and visualization. Developed diagnostics, sensor integration, and recovery procedures that cut programming/setup time by 90 % (2 h → 10 min)",
+      "highlights": ["ROS, Firmware, Robotics"]
+    },
+    {
       "name": "Amazon India",
       "position": "Program Manager Intern",
       "url": "",
-      "startDate": "Jan 2024",
-      "endDate": "Jun 2024",
+      "startDate": "2024-01-08",
+      "endDate": "2024-06-05",
       "summary": "Spearheaded migration of Supply Chain Inbound Forecasting from manual to an algorithm-based forecasting model. Drafted new ways of working for all stakeholders and led pilot launch. Performed extensive data analysis, identified downstream challenges, led solution-focused project meetings and obtained leadership approvals, improving overall forecasting accuracy by 10%.",
       "highlights": ["Program Management, Data Analysis, Team Leadership"]
     },
@@ -25,8 +34,8 @@
       "name": "Continuum Robotics Laboratory, University of Toronto",
       "position": "MITACS Globalink Research Intern",
       "url": "https://www.opencontinuumrobotics.com/hands-on/2023/10/11/learning-kit.html",
-      "startDate": "Jun 2023",
-      "endDate": "Aug 2023",
+      "startDate": "2023-06-05",
+      "endDate": "2023-08-15",
       "summary": "Fabricated a portable Tendon Driven Continuum Robot (TDCR), as part of the OpenCR Project. Created custom BLDC actuators and optimised tendon routes using Fusion 360 and TI Launchpad. Built a fully-actuated segment TDCR-based manual endoscope using tension-based and mechanical logic elements to create reliable control by eliminating digital latency.",
       "highlights": ["Continuum Robotics, Mechatronics, 3D Printing"]
     }, 
@@ -34,8 +43,8 @@
       "name": "Mars Rover Manipal",
       "position": "Technical Head / Mechanical Design Engineer",
       "url": "https://www.marsrovermanipal.com/",
-      "startDate": "Nov 2021",
-      "endDate": "Jul 2023",
+      "startDate": "2021-11-01",
+      "endDate": "2023-07-31",
       "summary": "Directed all technical operations of a team of 40 engineering undergraduates from 5 disciplines, involved in over 10 research & development projects and 7 international competitions. Engineered a Mars Rover Prototype for extra-terrestrial exploration comprising an on-board 6-DOF Robotic Manipulator with Inverse Kinematic Control, Custom 40:1 Cycloidal 3D-Printed Gearbox, and a novel 5-bar Suspension System to compete in University Rover Challenge (Ranked 1st in Asia). ",
       "highlights": ["Robotics, Team Leadership, 3D Printing", "CAD Design"]
     },
@@ -43,10 +52,10 @@
       "name": "STMicroelectronics India",
       "position": "Application Engineer Intern, Systems Research and Applications Department",
       "url": "https://www.st.com/en/",
-      "startDate": "Dec 2021",
-      "endDate": "Jan 2022",
+      "startDate": "2021-12-01",
+      "endDate": "2022-01-31",
       "summary": "Designed a 4-wheel drive Mecanum Robot, integrated into a STM BLE P2P and Mesh Network for manual and autonomous control. Initiated multiple new robotics projects in the SRA team. • Interfaced MEMS Sensors using HAL, LL, and Register Level drivers of the STM32 Microcontroller.",
-      "highlights": ["Robotics, Team Leadership, 3D Printing"]
+      "highlights": ["Firmware, Embedded Systems, Wheeled Robot"]
     }
   ],
 
@@ -56,9 +65,9 @@
       "location": "Pittsburgh, PA",
       "url": "https://www.cmu.edu/",
       "area": "Robotic Systems Development (MRSD)",
-      "studyType": "MS",
-      "startDate": "Aug 2024",
-      "endDate": "May 2026",
+      "studyType": "Master of Science",
+      "startDate": "2024-08-01",
+      "endDate": "2026-05-31",
       "GPA": "4.17",
       "courses": ["Manipulation and Control", "Robot Autonomy", "Optimal Control and Reinforcement Learning", "Computer Vision"]
     }, 
@@ -67,9 +76,9 @@
       "location": "Manipal, Karnataka, India",
       "url": "https://www.manipal.edu/mit.html",
       "area": "Mechatronics with Robotics and Automation",
-      "studyType": "B.Tech",
-      "startDate": "Oct 2020",
-      "endDate": "Jun 2024",
+      "studyType": "Bachelor of Technology",
+      "startDate": "2020-10-01",
+      "endDate": "2024-06-10",
       "GPA": "9.50/10",
       "courses": ["Mechatronic Design", "Systems Engineeing", "Control Systems", "Embedded Systems", "Manufacturing Processes"]
     }
@@ -97,57 +106,90 @@
       "url": "https://ieeexplore.ieee.org/document/10840448/authors#authors"
     }
   ],
-
-  "skills": [
+"skills": [
     {
-      "name": "Programming Languages",
+      "name": "Programming & Software",
       "keywords": [
         "Python",
-        "MATLAB",
-        "Embedded C/C",
+        "C/C++",
+        "Embedded C",
+        "MATLAB/Simulink",
+        "KAREL (FANUC)",
         "Julia",
-        "Mathematica",
         "SQL",
-        "C++"
+        "Python RPCs"
       ]
     },
     {
-      "name": "Software",
+      "name": "Machine Learning & Deep Learning",
       "keywords": [
-        "SolidWorks",
-        "Ansys",
-        "CATIA",
-        "Fusion 360",
-        "Simpify3D"
+        "PyTorch",
+        "WandB",
+        "Transformers & Attention",
+        "CNNs/RNNs/LSTMs",
+        "CTC Loss",
+        "Backpropagation",
+        "SVMs"
       ]
     },
     {
-      "name": "Technologies and Frameworks",
+      "name": "Robotics & Simulation",
       "keywords": [
-        "ROS2",
-        "Gazebo",
+        "ROS/ROS2",
+        "ROS-Industrial",
         "MoveIt",
-        "Simulink",
-        "Scikit-learn",
-        "Tensorflow",
-        "Keras",
-        "SciPy",
+        "Gazebo",
+        "FANUC RoboGuide",
+        "MuJoCo",
+        "NVIDIA Isaac Sim"
+      ]
+    },
+    {
+      "name": "Controls & Motion Planning",
+      "keywords": [
+        "Inverse Kinematics (IK)",
+        "PID/MPC Control",
+        "Path Planning (A*, RRT*)",
+        "Optimal Control",
+        "Reinforcement Learning (DAgger)",
+        "Trajectory Optimization"
+      ]
+    },
+    {
+      "name": "Mechatronics & Hardware Design",
+      "keywords": [
+        "SolidWorks (CSWP)",
+        "Fusion 360",
+        "Cycloidal Gearbox Design",
+        "Tendon-Driven Systems",
+        "3D Printing/Rapid Prototyping",
+        "BLDC Actuator Integration",
+        "Mechanical Logic Elements"
+      ]
+    },
+    {
+      "name": "Embedded Systems & Signal Processing",
+      "keywords": [
+        "STM32 (HAL/LL/Register Level)",
+        "Keyence PLC",
+        "MEMS Sensors",
+        "BLE/Mesh Networking",
+        "Digital Signal Processing (DSP)"
+      ]
+    },
+    {
+      "name": "Tools & Infrastructure",
+      "keywords": [
         "Git",
-        "Docker"
+        "Docker",
+        "Linux/Ubuntu",
+        "Kaggle",
+        "Technical Team Leadership",
+        "Algorithmic Forecasting"
       ]
     }
   ],
 
-  "ongoing projects": [
-    {
-      "name": "Lunar ROADSTER",
-      "summary": "Building an Autonomous Moon-working Mechatronic Rover, capable of finding exploration routes and grooming the lunar surface to develop traversable surface trails using actuated bulldozing mechanism. Optimizing Localization, Navigation, Perception and Manipulation systems for precise and reliable autonomous operations using ROS2, Sensor Fusion, Computer Vision and Docker.",
-      "highlights": ["ROS2, Sensor Fusion, Computer Vision, Docker, Mechatronc Design, C++"],
-      "startDate": "Sep 2024",
-      "endDate": "Present",
-      "url": "https://mrsdprojects.ri.cmu.edu/2025teami/"
-    }
-  ], 
   "languages": [
     {
       "language": "English",

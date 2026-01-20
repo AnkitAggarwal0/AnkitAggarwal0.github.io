@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Robotics. Controls. Mechatronic Design. 
+subtitle: Robotics Engineer | CMU Robotics Institute | AI + Mechatronics + Leadership
 
 profile:
   align: right
@@ -16,11 +16,30 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-<h4> Hey! My name is Ankit Aggarwal. I am currently pursuing a Master’s in Robotic Systems Development (MRSD) at the Robotics Institute, Carnegie Mellon University. As part of this program, my capstone project lies in the domain of Space Robotics – <a href = "projects/1_project">Lunar ROADSTER </a>, a Robotic Operator for Autonomous Development of Surface Trails and Exploration Routes. </h4>
 
-<h4> My core interest lies in creating robots in unpredictable environments. This ranges from robots that operate in extra-terrestrial conditions or aid humans work in hard-to-access mining sites. Robotics allows me to explore a broad spectrum of engineering problems, and I enjoy creating complete multi-disciplinary systems from the ground up.  </h4>
+I architect autonomous systems designed to thrive where traditional engineering fails: unpredictable, unstructured, and extreme environments. From my time leading Mars Rover Manipal to delivering the Lunar ROADSTER at Carnegie Mellon, my path has been defined by a from-scratch philosophy. I bridge the gap between high-level intelligence and rugged physical execution. I enjoy the challenge of working across the entire robotics stack ranging from deriving the mathematical foundations for a deep neural network to prototyping custom cycloidal gearboxes to ensure hardware resilience.
 
-<h4> I recently graduated from Manipal Institute of Technology with a Bachelor of Technology degree. My major was Mechatronics, and my minor was Robotics and Automation. During my undergraduate tenure, I led a team of undergraduate students to various international robotics competitions with Mars Rover Manipal and research projects in the domain of parallel robots and IoT. </h4>
+
+I thrive in the 0-to-1 phase of robotics,  taking a complex, multidisciplinary problem and building a robust, field-ready solution. I am currently seeking Founding Robotics Engineer or early-stage technical roles where I can own the end-to-end development of complex systems and work across the robotics stack.
+
+## Technical Skills
+
+I am a full-stack engineer capable of owning a project from the mathematical derivation of a control law to the physical fabrication of the chassis.
+
+
+#### The Brains: Autonomy, Controls, and Planning
+* **Motion Planning:** Proficient in search-based (A*, Dijkstra) and sampling-based (RRT*, PRM) planners. Experienced in lattice-based planning and navigation in unstructured off-road environments.
+* **Control Theory:** Expertise in PID, Model Predictive Control (MPC), and Inverse Kinematics (IK). Skilled in trajectory optimization and state estimation for high-degree-of-freedom manipulators.
+* **Robotics Foundations:** Deep understanding of rigid body dynamics, spatial transformations, and physics-based simulation using Isaac Sim and MuJoCo.
+* **Machine Learning for Robotics:** Utilizing CMU 11-785 and 10-601 foundations to integrate deep learning into the robotics stack, specifically for perception-based navigation and reinforcement learning (DAgger).
+* **Industrial Automation:** Overhauled FANUC ArcMate workflows using KAREL and ROS-I, achieving over 90 percent repeatability and a 90 percent reduction in setup time.
+
+#### The Body: Mechatronics and Hardware
+* **Precision Mechanical Design:** SolidWorks Professional (CSWP) certified. Specialized in custom cycloidal gearbox design, tendon-driven systems, and mechanical logic elements for reliable control.
+* **Embedded Development:** HAL/LL/Register-level programming for STM32 and TI Launchpad. Skilled in real-time firmware (C/C++), low-latency communication (SPI, I2C, CAN, UART), and industrial PLC interfacing via Python RPCs.
+* **Power and Fabrication:** Integration of BLDC actuators, motor drivers, and battery management systems. Experienced in 3D printing for mechanical assemblies and hardware-in-the-loop (HIL) testing.
+* **Circuit and PCB Design:** Expertise in schematic capture and PCB layout for sensor interfacing and power distribution. Proficient in component selection, mixed-signal systems, and rapid prototyping of custom breakout boards.
+
 
 <h4> Find my complete CV <a href ="/cv"> here </a>. </h4>
 
