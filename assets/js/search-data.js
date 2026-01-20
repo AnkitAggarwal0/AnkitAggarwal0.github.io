@@ -67,8 +67,8 @@ ninja.data = [{
           description: "Mars Rover Manipal, Manipal Institute of Technology",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-automated-additive-manufacturing-in-laser-welding-cell",
-          title: 'Automated Additive Manufacturing in Laser Welding Cell',
+            },},{id: "projects-automated-additive-manufacturing",
+          title: 'Automated Additive Manufacturing',
           description: "Manufacturing Futures Institute, Carnegie Mellon University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
