@@ -2,7 +2,7 @@
 layout: page
 title: Mars Rover 
 description: Mars Rover Manipal, Manipal Institute of Technology
-img: assets/img/mrmlogo.jpeg
+img: assets/img/MRM_thumbnail.jpg
 importance: 1
 category: 
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Dexterous Bimanual and Humanoid Manipulation
 description: Adapting Object-Centric Policies from Dual-Arm Systems to Humanoid Embodiments
-img: assets/img/hands_1.png
+img: assets/img/humanoid_imitation.png
 importance: 1
 category: research
 ---

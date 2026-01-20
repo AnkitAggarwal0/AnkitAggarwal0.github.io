@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Automated Additive Manufacturing in Laser Welding Cell
+title: Automated Additive Manufacturing 
 description: Manufacturing Futures Institute, Carnegie Mellon University
 img: assets/img/mfi.png
 importance: 1
