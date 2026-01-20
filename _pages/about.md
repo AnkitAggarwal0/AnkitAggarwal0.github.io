@@ -26,19 +26,20 @@ I thrive in the 0-to-1 phase of robotics,  taking a complex, multidisciplinary p
 
 I am a full-stack engineer capable of owning a project from the mathematical derivation of a control law to the physical fabrication of the chassis.
 
-
-#### The Brains: Autonomy, Controls, and Planning
-* **Motion Planning:** Proficient in search-based (A*, Dijkstra) and sampling-based (RRT*, PRM) planners. Experienced in lattice-based planning and navigation in unstructured off-road environments.
-* **Control Theory:** Expertise in PID, Model Predictive Control (MPC), and Inverse Kinematics (IK). Skilled in trajectory optimization and state estimation for high-degree-of-freedom manipulators.
-* **Robotics Foundations:** Deep understanding of rigid body dynamics, spatial transformations, and physics-based simulation using Isaac Sim and MuJoCo.
-* **Machine Learning for Robotics:** Utilizing CMU 11-785 and 10-601 foundations to integrate deep learning into the robotics stack, specifically for perception-based navigation and reinforcement learning (DAgger).
-* **Industrial Automation:** Overhauled FANUC ArcMate workflows using KAREL and ROS-I, achieving over 90 percent repeatability and a 90 percent reduction in setup time.
-
 #### The Body: Mechatronics and Hardware
 * **Precision Mechanical Design:** SolidWorks Professional (CSWP) certified. Specialized in custom cycloidal gearbox design, tendon-driven systems, and mechanical logic elements for reliable control.
 * **Embedded Development:** HAL/LL/Register-level programming for STM32 and TI Launchpad. Skilled in real-time firmware (C/C++), low-latency communication (SPI, I2C, CAN, UART), and industrial PLC interfacing via Python RPCs.
 * **Power and Fabrication:** Integration of BLDC actuators, motor drivers, and battery management systems. Experienced in 3D printing for mechanical assemblies and hardware-in-the-loop (HIL) testing.
 * **Circuit and PCB Design:** Expertise in schematic capture and PCB layout for sensor interfacing and power distribution. Proficient in component selection, mixed-signal systems, and rapid prototyping of custom breakout boards.
+
+#### The Brains: Autonomy, Controls, and Planning
+* **Motion Planning:** Proficient in search-based (A\*, Dijkstra) and sampling-based (RRT\*, PRM) planners. Experienced in lattice-based planning and navigation in unstructured off-road environments.
+* **Control Theory:** Expertise in PID, Model Predictive Control (MPC), and Inverse Kinematics (IK). Skilled in trajectory optimization and state estimation for high-degree-of-freedom manipulators.
+* **Robotics Foundations:** Deep understanding of rigid body dynamics, spatial transformations, and physics-based simulation using Isaac Sim and MuJoCo.
+* **Machine Learning for Robotics:** Utilizing CMU 11-785 and 10-601 foundations to integrate deep learning into the robotics stack, specifically for perception-based navigation and reinforcement learning (DAgger).
+* **Industrial Automation:** Overhauled FANUC ArcMate workflows using KAREL and ROS-I, achieving over 90 percent repeatability and a 90 percent reduction in setup time.
+
+
 
 
 <h4> Find my complete CV <a href ="/cv"> here </a>. </h4>
